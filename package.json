@@ -1,0 +1,25 @@
+{
+  "name": "erlang-c-js",
+  "version": "0.0.1",
+  "description": "Library to get a required number of agents for a specific SL using Erlang-C formula in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "author": "Eugene Popenko <trueblamed@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "decimal.js": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "jest": "^25.1.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
