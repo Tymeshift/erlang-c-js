@@ -1,2 +1,2 @@
 # ErlangC.Js
-Library to get a required number of agents for a specific SL using Erlang-C formula in JS
+Library to calculate a required number of agents needed for a specific service level to handle incoming volume of arrivals per time interval
