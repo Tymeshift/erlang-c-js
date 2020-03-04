@@ -1,5 +1,5 @@
 {
-  "name": "ErlangC.js",
+  "name": "erlang-c-js",
   "version": "0.0.1",
   "description": "Library to get a required number of agents for a specific SL using Erlang-C formula in JS",
   "main": "index.js",
