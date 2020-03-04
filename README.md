@@ -4,13 +4,13 @@ Library to calculate a required number of agents needed for a specific service l
 ## Install
 
 ```bash
-$ npm install --save ErlangC.js
+$ npm install --save erlang-c-js
 ```
 
 ## Usage
 
 ```
-import { getNumberOfAgents } from 'ErlangC.js';
+import { getNumberOfAgents } from 'erlang-c-js';
 
 const volumes = 50;
 const intervalLength = 3600;
