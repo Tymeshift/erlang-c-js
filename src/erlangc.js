@@ -1,7 +1,7 @@
-const Decimal = require("decimal.js");
+import Decimal from "decimal.js";
 
 const factorialCache = [new Decimal("1"), new Decimal("1")];
-export const getFactorial = n => {
+export const getFactorial = (n) => {
   if (n < 0) {
     throw new Error("n cannot be negative");
   }
